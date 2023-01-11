@@ -4,6 +4,7 @@ import React from "react";
 import Navigation from "../../Components/Navigation";
 import "../../styles/home.css";
 import logoIV from "../../assets/logoIV.png";
+import Gallery from "../../Components/Gallery";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
                 This is my potfolio.
               </Link>
             </h2>
+            <Gallery />
           </div>
         </div>
       </div>
