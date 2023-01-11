@@ -1,0 +1,35 @@
+/* Media querrie */
+
+/* Mobile version */
+
+@media screen and (max-width: 767px) {
+  .galleryContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: 15px;
+    align-items: center;
+  }
+
+  .cardContainer {
+    left: -57px;
+    margin-bottom: 20px;
+  }
+
+  .cardTitle {
+    bottom: 30px;
+    width: fit-content;
+    left: 19px;
+    padding: 10px;
+    position: relative;
+    top: 197px;
+    margin-left: 10px;
+    background-color: aquamarine;
+  }
+  .cardImg {
+    object-fit: cover;
+    width: 340px;
+    height: 200px;
+    border-radius: 2px;
+  }
+}

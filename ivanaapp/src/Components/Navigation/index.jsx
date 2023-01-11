@@ -9,10 +9,6 @@ function Navigation() {
   return (
     <div className="menuWrapper">
       <FontAwesomeIcon className="menu-icon" icon={faBars} />
-
-      {/* <Link to="/" className="home-link">
-        Go Home maybe!
-      </Link> */}
     </div>
   );
 }

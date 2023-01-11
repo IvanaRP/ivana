@@ -1,5 +1,5 @@
 import Card from "../Card";
-// import "../../styles/Gallery.css";
+import "../../styles/gallery.css";
 import React from "react";
 import Data from "../../datas/data.json";
 
