@@ -5,19 +5,28 @@
 .homeWrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .homeContainer {
   display: flex;
   flex-direction: column;
   margin: 20px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  width: 90%;
 }
 
 h1 {
   font-weight: 900;
+  padding: 10px;
+  padding-left: 0px;
+  margin-top: 10px;
 }
 h2 {
+  text-align: justify;
+  text-justify: inter-word;
   font-weight: 400;
+  font-size: 1.5em;
+  line-height: 32px;
 }

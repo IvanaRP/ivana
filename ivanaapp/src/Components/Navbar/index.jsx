@@ -17,10 +17,7 @@ class Navbar extends Component {
               className={this.state.clicked ? "#navbar active" : "#navabar"}
             >
               <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="/work">Work</a>
+                <a href="/">Work</a>
               </li>
               <li>
                 <a href="/about">About</a>
