@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
 
-import Navigation from "../../Components/Navigation";
 import "../../styles/home.css";
 import logoIV from "../../assets/logoIV.png";
 import Gallery from "../../Components/Gallery";
@@ -10,8 +9,6 @@ function Home() {
   return (
     <>
       <div className="globalWrapper">
-        <Navigation></Navigation>
-
         <div className="homeWrapper">
           <div className="homeContainer">
             <img src={logoIV} className="logo" alt="logo" />

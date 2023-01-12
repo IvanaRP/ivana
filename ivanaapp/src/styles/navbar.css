@@ -1,0 +1,98 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px 35px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0000ff;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 120px;
+}
+
+#navbar li a:hover {
+  color: #0000ff;
+  /* background: #28293e; */
+}
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 6px;
+  background: #0000ff;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#mobile {
+  display: none;
+}
+#mobile i {
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 60px;
+    right: -300px;
+    width: 150px;
+    height: 100vh;
+    padding: 40px 0 0 10px;
+    transition: 0.3s ease-in-out;
+  }
+  #navbar.active {
+    right: 0px;
+  }
+  #navbar li {
+    font-weight: 900;
+    margin-bottom: 25px;
+    color: #28293e;
+    background-color: #0000ff;
+  }
+
+  #navbar li a:hover {
+    color: #28293e;
+    /* background: #28293e; */
+  }
+  #navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 6px;
+    background: #28293e;
+    position: absolute;
+    bottom: -1px;
+    left: 20px;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  #mobile i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
