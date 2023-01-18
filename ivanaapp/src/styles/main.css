@@ -22,7 +22,9 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  background: rgb(44 15 235 / 100%);
+  font-size: 110%;
+  transition: 0.2s;
 }
 
 /* selected link */
@@ -34,10 +36,10 @@ h1 {
   font-weight: bold;
   font-size: 2.5em;
 }
-h2 {
+/* h2 {
   font-size: 1.5em;
   line-height: 32px;
-}
+} */
 
 .logo {
   border-radius: 50%;

@@ -1,0 +1,10 @@
+.locationWrapper {
+  display: flex;
+  margin-top: 20px;
+  /* width: 100%; */
+  padding: 0 150px;
+  flex-direction: column;
+  align-items: center;
+  color: #ff6060;
+  text-decoration: none;
+}
