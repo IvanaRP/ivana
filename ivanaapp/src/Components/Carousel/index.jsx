@@ -1,11 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import PropTypes from "prop-types";
-// import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "../../styles/carousel.css";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/fontawesome-free-solid";
 
 function Carousel({ cover, pictures }) {
   const [current, setCurrent] = useState(0);
@@ -26,17 +23,11 @@ function Carousel({ cover, pictures }) {
           <img src={cover} alt="Carrousel" />
         ) : (
           <div>
-            <FontAwesomeIcon
+            <FaChevronLeft
               id="chevron-icon-down"
               className="btn-left"
               onClick={goToPreviousPicture}
-              icon={faBars}
             />
-            {/* <FaChevronLeft
-              id="chevron-icon-down"
-              className="btn-left"
-              onClick={goToPreviousPicture}
-            /> */}
             {pictures.map(
               (pic, index) =>
                 index === current && (
@@ -46,17 +37,12 @@ function Carousel({ cover, pictures }) {
             <p className="slideNumber">
               {current + 1}/{counter}
             </p>
-            <FontAwesomeIcon
+
+            <FaChevronRight
               id="chevron-icon-down"
               className="btn-right"
               onClick={gotToNextPicture}
-              icon={faBars}
             />
-            {/* <FaChevronRight
-              id="chevron-icon-down"
-              className="btn-right"
-              onClick={gotToNextPicture}
-            /> */}
           </div>
         )}
       </div>
