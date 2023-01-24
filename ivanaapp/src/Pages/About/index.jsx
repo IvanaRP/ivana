@@ -27,7 +27,7 @@ function About() {
             <h1>Contact me</h1>
             <h2>
               If you’d like to contact me, talk about a project or ask me a
-              question just drop me an email ivanaradicperrichon@gmail.com
+              question just drop me an email ivanaradicperrichon @gmail.com
             </h2>
           </div>
         </div>

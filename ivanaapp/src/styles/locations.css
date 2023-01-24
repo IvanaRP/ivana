@@ -1,7 +1,6 @@
 .locationWrapper {
   display: flex;
   margin-top: 20px;
-  /* width: 100%; */
   padding: 0 150px;
   flex-direction: column;
   align-items: center;
@@ -70,13 +69,11 @@ li {
   flex-direction: row;
   padding: 5px 10px;
   border-radius: 18px;
-
   margin-right: 10px;
 }
 
 .location-header-name {
   display: flex;
-  /* word-break: break-all; */
   width: 52px;
   justify-content: flex-end;
   flex-direction: row;
@@ -132,7 +129,6 @@ li {
     font-size: 12px;
   }
   h1 {
-    font-size: 18px;
     margin-bottom: 2px;
   }
   h3 {

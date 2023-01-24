@@ -12,7 +12,7 @@ function Home() {
         <div className="homeWrapper">
           <div className="homeContainer">
             <img src={logoIV} className="logo" alt="logo" />
-            <h1>Hej I’m Ivana !</h1>
+            <h1 className="homeCopy">Hej I’m Ivana !</h1>
             <h2>
               Application developer, focused on beautiful and USEFUL APP.
               Currently based in Copenhagen, Denmark.

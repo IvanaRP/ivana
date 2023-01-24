@@ -1,9 +1,0 @@
-.menu-icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding: 20px;
-  font-size: 2rem;
-  position: absolute;
-  right: 0px;
-}
