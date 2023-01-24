@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Carousel from "../../Components/Carousel";
 
 import "../../styles/locations.css";
@@ -23,16 +23,30 @@ function Location() {
             <div className="location-header">
               <div className="location-header-info">
                 <h1>{location.title}</h1>
-                <h3>{location.location}</h3>
+                <h3>
+                  Project 12 - Openclassrooms This repo contains all the source
+                  code to run the profil'page with the sports analytics
+                  dashboard SportSee.
+                </h3>
+                {/* <h3>{location.location}</h3> */}
               </div>
-              <div className="location-header-host">
+              {/* <div className="location-header-host">
                 <span className="location-header-name">
                   {location.host["name"]}
                 </span>
                 <img src={location.host["picture"]} alt="Hôte illustration" />
-              </div>
+              </div> */}
             </div>
-            <div className="location-tags-rating">
+            <div>
+              <h2>You can check my work on github or live</h2>
+              <a
+                href="https://github.com/IvanaRP/IvanaRP_P12_09022022"
+                target="_blank"
+              >
+                MY GITHUB OPENS NEW PAGE
+              </a>
+            </div>
+            {/* <div className="location-tags-rating">
               <div className="location-tagsList">
                 <ul>
                   {location["tags"].map((tag, index) => (
@@ -40,10 +54,10 @@ function Location() {
                   ))}
                 </ul>
               </div>
-            </div>
-            <div className="descrWrapper">
+            </div> */}
+            {/* <div className="descrWrapper">
               <Dropdown title={"Description"} content={location.description} />
-            </div>
+            </div> */}
           </div>
         ))}
     </div>

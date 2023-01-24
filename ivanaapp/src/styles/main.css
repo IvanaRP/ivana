@@ -22,7 +22,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  background: rgb(44 15 235 / 100%);
+  /* background: rgb(44 15 235 / 100%); */
   font-size: 110%;
   transition: 0.2s;
   border-radius: 10px;

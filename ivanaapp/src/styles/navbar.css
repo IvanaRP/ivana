@@ -30,8 +30,10 @@ nav {
 }
 
 #navbar li a:hover {
-  color: #0000ff;
+  /* background-color: #0000ff; */
+  /* padding: 10px; */
   /* background: #28293e; */
+  font-size: 100%;
 }
 #navbar li a:hover::after {
   content: "";
@@ -41,6 +43,12 @@ nav {
   position: absolute;
   bottom: -4px;
   left: 20px;
+}
+#navbar li a:visited {
+  /* background-color: #0000ff; */
+  /* padding: 10px; */
+  /* background: #28293e; */
+  color: #fff;
 }
 
 #mobile {
@@ -70,7 +78,7 @@ nav {
   #navbar li {
     font-weight: 900;
     margin-bottom: 25px;
-    color: #28293e;
+    color: #ffffff;
     background-color: #0000ff;
   }
 
@@ -82,7 +90,7 @@ nav {
     content: "";
     width: 30%;
     height: 6px;
-    background: #28293e;
+    background: #ffffff;
     position: absolute;
     bottom: -1px;
     left: 20px;
