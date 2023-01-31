@@ -14,7 +14,8 @@ function Home() {
               <div className="homeTitleSubtitle">
                 <h1 className="homeTitle">Hej I’m Ivana !</h1>
                 <h2 className="homeSubTitle">
-                  React developer, focused on beautiful and usefull interfaces.
+                  React developer, focused on beautiful and usefull web and
+                  mobile applications.
                   <br />
                   Currently based in Copenhagen, Denmark. <br />
                   Look what i can do!
