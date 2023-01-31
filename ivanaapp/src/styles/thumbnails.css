@@ -1,0 +1,14 @@
+.thumbImg {
+  height: 70px;
+  width: 70px;
+}
+.thumbContent {
+  height: 70px;
+  width: 70px;
+}
+.thumbContainer {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}

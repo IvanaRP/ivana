@@ -1,0 +1,7 @@
+.projectsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 200px 150px 40px 150px;
+}

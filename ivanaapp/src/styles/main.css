@@ -23,21 +23,12 @@ a:visited {
 /* mouse over link */
 a:hover {
   /* background: rgb(44 15 235 / 100%); */
-  font-size: 110%;
-  transition: 0.2s;
+  /* font-size: 110%;
+  transition: 0.2s; */
   border-radius: 10px;
 }
 
 /* selected link */
 a:active {
   color: blue;
-}
-
-.logo {
-  border-radius: 50%;
-  padding: 20px;
-  width: 200px;
-  height: 200px;
-  margin: auto;
-  margin-top: 30px;
 }

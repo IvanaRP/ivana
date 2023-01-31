@@ -3,23 +3,24 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
-  align-content: space-around;
-  margin-top: 43px;
+  justify-content: flex-start;
+  /* align-content: space-around; */
+  /* margin-top: 43px; */
   border-radius: 25px;
-  padding: 56px 50px;
+  padding: 100px 150px 50px 150px;
 }
 
 .cardContainer {
   position: relative;
   display: flex;
   align-items: flex-end;
-  width: 180px;
-  height: 180px;
+  /* width: 180px;
+  height: 180px; */
   border-radius: 10px;
   cursor: pointer;
-  margin: 30px;
-  margin-left: 10px;
+  /* margin: 30px; */
+  padding: 10px;
+  margin-left: 34px;
 }
 
 .galleryImg {
@@ -34,9 +35,10 @@
 }
 .cardContent {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
 }
-.cardTitle {
+/* .cardTitle {
   z-index: 20;
   position: absolute;
   font-weight: 900;
@@ -50,12 +52,23 @@
   border-bottom-left-radius: 10px;
   overflow: hidden;
   border-bottom-right-radius: 10px;
+} */
+
+/* card title below */
+.cardTitle {
+  font-size: 1em;
+  color: white;
 }
 .cardImg {
   object-fit: cover;
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  padding-bottom: 10px;
+  /* border-radius: 10px; */
+}
+.cardImg:hover {
+  border-radius: 50%;
+  transition-duration: 0.25s;
 }
 
 /* Media querrie */
@@ -66,13 +79,17 @@
   .galleryContainer {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-content: flex-start;
-    margin-top: -43px;
+    /* margin-top: -43px; */
     align-items: center;
+    padding: 30px 40px 50px 40px;
+    position: relative;
+    top: -58px;
   }
-  .cardContainer {
+  /* .cardContainer {
     left: -57px;
-  }
+  } */
 
   .cardTitle {
     width: 340px;
@@ -80,8 +97,33 @@
   }
   .cardImg {
     object-fit: cover;
-    width: 340px;
-    height: 200px;
-    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    /* border-radius: 10px; */
+  }
+  .cardContainer {
+    margin: 0;
+    margin-left: 0;
+  }
+  .cardContent {
+    padding-bottom: 20px;
+  }
+}
+/* Tablet version */
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+  .galleryContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    /* margin-top: -43px; */
+    align-items: center;
+    padding: 50px 150px 50px 150px;
+  }
+  .cardContainer {
+    margin: 0;
+    margin-left: 0;
   }
 }

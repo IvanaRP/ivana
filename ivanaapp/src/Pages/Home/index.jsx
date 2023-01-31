@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import React from "react";
 
 import "../../styles/home.css";
@@ -11,17 +10,19 @@ function Home() {
       <div className="globalWrapper">
         <div className="homeWrapper">
           <div className="homeContainer">
-            <img src={logoIV} className="logo" alt="logo" />
-            <h1 className="homeCopy">Hej I’m Ivana !</h1>
-            <h2>
-              Application developer, focused on beautiful and USEFUL APP.
-              Currently based in Copenhagen, Denmark.
-            </h2>
-            <h2>
-              <Link to="/employee-list" className="homeWrapper-link">
-                This is my potfolio.
-              </Link>
-            </h2>
+            <div className="home-header-info">
+              <div className="homeTitleSubtitle">
+                <h1 className="homeTitle">Hej I’m Ivana !</h1>
+                <h2 className="homeSubTitle">
+                  React developer, focused on beautiful and usefull interfaces.
+                  <br />
+                  Currently based in Copenhagen, Denmark. <br />
+                  This is my potfolio.
+                </h2>
+              </div>
+              <img src={logoIV} className="logo" alt="logo" />
+            </div>
+
             <Gallery />
           </div>
         </div>

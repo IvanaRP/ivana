@@ -8,8 +8,8 @@ function Card({ title, id, cover }) {
     <div className="cardContainer">
       <Link to={`/location/${id}`} className="cardLink">
         <div className="cardContent">
-          <div className="cardTitle">{title}</div>
           <img src={cover} className="cardImg" alt="Cover" />
+          <div className="cardTitle">{title}</div>
         </div>
       </Link>
     </div>

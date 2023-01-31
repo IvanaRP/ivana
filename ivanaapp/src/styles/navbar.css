@@ -3,7 +3,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
   padding: 20px 35px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); */
 }
 
 #navbar {
@@ -24,7 +24,7 @@ nav {
   font-weight: 600;
   color: #0000ff;
   transition: 0.3s ease-in-out;
-  box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1); */
   padding: 20px;
   width: 120px;
 }
@@ -63,23 +63,26 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    position: fixed;
+    position: absolute;
     z-index: 50;
-    top: 60px;
-    right: -300px;
-    width: 150px;
-    height: 100vh;
+    top: -400px;
+    right: 0;
+    width: 100%;
+    height: fit-content;
     padding: 40px 0 0 10px;
     transition: 0.3s ease-in-out;
+    background-color: #0000ff;
   }
   #navbar.active {
-    right: 0px;
+    /* right: 0px; */
+    top: 0px;
   }
   #navbar li {
     font-weight: 900;
     margin-bottom: 25px;
     color: #ffffff;
     background-color: #0000ff;
+    box-shadow: none;
   }
 
   #navbar li a:hover {
@@ -95,10 +98,12 @@ nav {
     bottom: -1px;
     left: 20px;
     z-index: 50;
+    display: block;
   }
 
   #mobile {
     display: block;
+    z-index: 90;
   }
 
   #mobile i {

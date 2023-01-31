@@ -3,21 +3,29 @@
   flex-direction: column;
 }
 .homeWrapper {
-  padding: 0 150px;
+  display: flex;
+  /* margin-top: 20px; */
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
 }
 
 .homeContainer {
-  display: flex;
-  flex-direction: column;
   width: 100%;
-  margin-top: 50px;
 }
 
+.home-header-info {
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: row;
+}
+.homeTitleSubtitle {
+  padding: 100px 150px 50px 150px;
+}
 .homeCopy {
   font-weight: 900;
-  padding: 10px;
-  padding-left: 0px;
   margin-top: 10px;
+  padding: 100px 150px 50px 150px;
 }
 h2 {
   text-align: justify;
@@ -27,15 +35,45 @@ h2 {
   line-height: 32px;
 }
 
+.homeTitle {
+  font-size: 72px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.homeSubTitle {
+  font-size: 23px;
+  font-weight: 300;
+}
+.logo {
+  border-radius: 50%;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  /* margin: auto; */
+  position: relative;
+  left: -151px;
+  margin-top: 30px;
+}
+
 /* Media querrie */
 
 /* Mobile version */
 
 @media screen and (max-width: 767px) {
-  .homeWrapper {
+  /* .homeWrapper {
     padding: 0 25px;
+  } */
+  .homeTitleSubtitle {
+    padding: 30px 40px 10px 40px;
+    position: relative;
+    top: 180px;
   }
-
+  .home-header-info {
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+  }
   .homeContainer {
     margin-top: 30px;
   }
@@ -46,13 +84,34 @@ h2 {
     padding-left: 0px;
     margin-top: 10px;
   }
+
+  .homeTitle {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 25px;
+  }
+  .homeSubTitle {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .logo {
+    border-radius: 50%;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    /* margin: auto; */
+    position: relative;
+    left: 25%;
+    top: -340px;
+    margin-top: 30px;
+  }
 }
 
 /* Tablet version */
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 
 @media screen and (min-width: 768px) and (max-width: 1150px) {
-  .homeWrapper {
+  /* .homeWrapper {
     padding: 0 25px;
-  }
+  } */
 }
