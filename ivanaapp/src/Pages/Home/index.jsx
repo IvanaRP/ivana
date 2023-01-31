@@ -17,7 +17,7 @@ function Home() {
                   React developer, focused on beautiful and usefull interfaces.
                   <br />
                   Currently based in Copenhagen, Denmark. <br />
-                  This is my potfolio.
+                  Look what i can do!
                 </h2>
               </div>
               <img src={logoIV} className="logo" alt="logo" />

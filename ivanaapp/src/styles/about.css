@@ -1,0 +1,37 @@
+.aboutLinks {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.aboutContact {
+  padding-top: 40px;
+}
+.aboutLinksButton {
+  display: table;
+  margin: 0px auto 20px auto;
+  padding: 3px;
+  font-size: 24px;
+  background-color: #0000ff;
+  color: #fff;
+  word-break: break-word;
+}
+
+.conctactTitleSubtitle {
+  padding-top: 40px;
+}
+.abouthomeTitleSubtitle {
+  padding: 100px 150px 50px 150px;
+}
+/* Media querrie */
+
+/* Mobile version */
+
+@media screen and (max-width: 767px) {
+  .abouthomeTitleSubtitle {
+    padding: 30px 40px 10px 40px;
+  }
+  .aboutContact {
+    padding: 30px 40px 10px 40px;
+  }
+}
