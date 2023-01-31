@@ -9,7 +9,6 @@ function Thumbnails({ title, id, cover }) {
       <Link to={`/location/${id}`} className="thumbLink">
         <div className="thumbContent">
           <img src={cover} className="thumbImg" alt="Cover" />
-          {/* <div className="thumbTitle">{title}</div> */}
         </div>
       </Link>
     </div>

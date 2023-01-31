@@ -5,10 +5,12 @@ import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Location from "../Pages/Locations";
 import Error from "../Components/Error";
+import LinkToTop from "../Components/LinktoTop";
 
 function RoutesPath() {
   return (
     <Router>
+      <LinkToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

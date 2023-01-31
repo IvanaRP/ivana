@@ -29,38 +29,55 @@ function Location() {
                   pictures={location.pictures}
                 />
                 <div className="projectInfo">
-                  <h2>ABOUT THE PROJECT</h2>
-                  <h3>{location.description}</h3>
-                  <div className="location-tags-rating">
-                    <div className="location-tagsList">
-                      <ul>
-                        {location["logiciels"].map((logiciel, index) => (
-                          <li key={`${index}-${idLocation}`}>{logiciel}</li>
-                        ))}
-                      </ul>
-                    </div>
+                  <div>
+                    <h2 className="projectTittle">ABOUT THE PROJECT</h2>
+                    <h3 className="projectSubTittle">{location.description}</h3>
                   </div>
                   <div>
-                    <h2>You can check my work on github or live</h2>
-                    <a href={location.github} target="_blank">
-                      Github
-                    </a>
-                    <a href={location.page} target="_blank">
-                      Page
-                    </a>
+                    <h2 className="projectTittle">OBJECTIF</h2>
+                    <h3 className="projectSubTittle">{location.objectif}</h3>
+                  </div>
+
+                  <div>
+                    <h2 className="projectTittle">Languages ​​used:</h2>
+                    <div className="location-tags-rating">
+                      <div className="projectSubTittle">
+                        <ul>
+                          {location["logiciels"].map((logiciel, index) => (
+                            <li
+                              className="projectSubTittle"
+                              key={`${index}-${idLocation}`}
+                            >
+                              {logiciel}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h2 className="projectTittle">
+                      You can check my work on github or online version
+                    </h2>
+                    <div className="externalLinks">
+                      <a href={location.github} target="_blank">
+                        See the code on Github
+                      </a>
+                    </div>
+                    <div className="externalLinks">
+                      <a href={location.page} target="_blank">
+                        See the website
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <div>
-                  <h2>Images of project</h2>
-                  <div className="location-tagsList">
-                    <ul>
-                      {location["pictures"].map((picture, index) => (
-                        <li key={`${index}-${idLocation}`}>
-                          <img className="coverImg" src={picture} alt="cover" />
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                <div className="projectPicturesWrapper">
+                  {location["pictures"].map((picture, index) => (
+                    <div key={`${index}-${idLocation}`}>
+                      <img className="projectImg" src={picture} alt="cover" />
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

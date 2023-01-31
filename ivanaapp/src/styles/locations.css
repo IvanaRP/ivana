@@ -7,9 +7,9 @@
   text-decoration: none;
 }
 
-.locationContainer {
+/* .locationContainer {
   width: 100%;
-}
+} */
 .title {
   font-size: 72px;
   font-weight: 800;
@@ -98,7 +98,52 @@ li {
 }
 
 .projectInfo {
+  padding: 40px 150px 40px 150px;
+}
+.projectPicturesWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
   padding: 40px 150px 200px 150px;
+}
+.projectPictures {
+  display: flex;
+  flex-direction: row;
+}
+.projectImg {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+}
+.externalLinks {
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  position: relative;
+  padding: 0 20px 0 0;
+}
+
+.externalLinks a:hover::after {
+  content: "";
+  width: 30%;
+  height: 6px;
+  background: #0000ff;
+  position: absolute;
+  bottom: -4px;
+  left: 5px;
+}
+
+.projectTittle {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.projectSubTittle {
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 25px;
 }
 
 /* Media querrie */
@@ -106,9 +151,42 @@ li {
 /* Mobile version */
 
 @media screen and (max-width: 767px) {
-  /* .galleryContainer {
-    padding: 30px 40px 50px 40px;
-  } */
+  .titleSubtitle {
+    padding: 30px 40px 30px 40px;
+  }
+  .title {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 25px;
+  }
+  .subTitle {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .projectInfo {
+    padding: 30px 40px 30px 40px;
+  }
+  .projectTittle {
+    width: 310px;
+    line-height: 1.6;
+  }
+  .projectSubTittle {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    width: 310px;
+    line-height: 1.6;
+  }
+  .projectPicturesWrapper {
+    padding: 30px 40px 30px 40px;
+  }
+  .projectImg {
+    object-fit: cover;
+    width: 340px;
+    height: 300px;
+    padding: 0;
+    padding-bottom: 10px;
+  }
   .locationWrapper {
     /* padding: 0 25px; */
     margin-top: 2px;
@@ -169,7 +247,7 @@ li {
     margin-right: 10px;
   }
 
-  .location-tags-rating {
+  /* .location-tags-rating {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -178,7 +256,7 @@ li {
 
   .location-tagsList {
     margin-bottom: 28px;
-  }
+  } */
 }
 
 /* Tablet version */
