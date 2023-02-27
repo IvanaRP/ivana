@@ -11,35 +11,15 @@ function About() {
           <div className="homeContainer">
             <div className="home-header-info">
               <div className="abouthomeTitleSubtitle">
-                <h1 className="homeTitle">Hej again!</h1>
-                <h2 className="homeSubTitle">
-                  Highly creative and experienced versatile creative
-                  professional with a proven work history as a Ui artist,
-                  graphic designer, illustrator and application developer.
-                </h2>
-                <h2 className="homeSubTitle">
-                  With over 12 years of experience in the advertising and gaming
-                  industries, working for companies such as Leo Burnett,
-                  Frontmen Studio and Molson Coors.
-                </h2>
-                <h2 className="homeSubTitle">
-                  Advanced proficiency in the languages of English, French, and
-                  Serbian (native), as well as 2D art, graphics, logo design,
-                  and typography.
-                </h2>
-                <h2 className="homeSubTitle">
-                  Living in various countries such as Serbia, France, and
-                  Denmark, I have gained experience working in an international
-                  and multicultural environment.
-                </h2>
-                <div className="conctactTitleSubtitle">
-                  <h1 className="homeTitle">Contact</h1>
-                  <h2 className="homeSubTitle">
-                    If you’d like to contact me, talk about a project or ask me
-                    a question just drop me an email!
-                  </h2>
-                  <div className="aboutLinks"></div>
-
+                <h1 className="homeTitle">
+                  Hej again, have a look at my
+                  <div className="aboutLinksButton">
+                    <a href={CVIVANARADIC} target="_blank" rel="noreferrer">
+                      PORTFOLIO
+                    </a>
+                  </div>
+                  or if you’d like to contact me, talk about a project or ask me
+                  a question just drop me an email!{" "}
                   <div
                     className="aboutLinksButton"
                     onClick={(e) => {
@@ -48,13 +28,17 @@ function About() {
                     }}
                   >
                     ivanaradicperrichon @gmail.com
-                  </div>
-                  <div className="aboutLinksButton">
-                    <a href={CVIVANARADIC} target="_blank" rel="noreferrer">
-                      Download cv
+                  </div>{" "}
+                  Or stay in contact{" "}
+                  <h2 className="aboutLinksButton">
+                    <a href="https://github.com/IvanaRP">IvanaRP Github</a>
+                  </h2>
+                  <h2 className="aboutLinksButton">
+                    <a href="https://www.linkedin.com/in/ivana-radicp/">
+                      LinkedIn
                     </a>
-                  </div>
-                </div>
+                  </h2>
+                </h1>
               </div>
             </div>
           </div>
