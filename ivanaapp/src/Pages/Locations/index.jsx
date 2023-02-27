@@ -59,12 +59,20 @@ function Location() {
                   <div>
                     <h2 className="projectTittle">Links</h2>
                     <div className="externalLinks">
-                      <a href={location.github} target="_blank">
+                      <a
+                        href={location.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         See the code on Github
                       </a>
                     </div>
                     <div className="externalLinks">
-                      <a href={location.page} target="_blank">
+                      <a
+                        href={location.page}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         See the website
                       </a>
                     </div>
