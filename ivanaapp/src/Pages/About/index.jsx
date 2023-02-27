@@ -15,7 +15,7 @@ function About() {
                   Hej again, have a look at my
                   <div className="aboutLinksButton">
                     <a href={CVIVANARADIC} target="_blank" rel="noreferrer">
-                      PORTFOLIO
+                      CV
                     </a>
                   </div>
                   or if you’d like to contact me, talk about a project or ask me
@@ -31,7 +31,7 @@ function About() {
                   </div>{" "}
                   Or stay in contact{" "}
                   <h2 className="aboutLinksButton">
-                    <a href="https://github.com/IvanaRP">IvanaRP Github</a>
+                    <a href="https://github.com/IvanaRP">Github</a>
                   </h2>
                   <h2 className="aboutLinksButton">
                     <a href="https://www.linkedin.com/in/ivana-radicp/">
