@@ -11,34 +11,37 @@ function About() {
           <div className="homeContainer">
             <div className="home-header-info">
               <div className="abouthomeTitleSubtitle">
+                <h1 className="homeTitle">Hej again, have a look at my</h1>
+                <a
+                  href={CVIVANARADIC}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="aboutLinksButton"
+                >
+                  CV
+                </a>
                 <h1 className="homeTitle">
-                  Hej again, have a look at my
-                  <div className="aboutLinksButton">
-                    <a href={CVIVANARADIC} target="_blank" rel="noreferrer">
-                      CV
-                    </a>
-                  </div>
                   or if you’d like to contact me, talk about a project or ask me
                   a question just drop me an email!{" "}
-                  <div
-                    className="aboutLinksButton"
-                    onClick={(e) => {
-                      window.location.href =
-                        "mailto:ivanaradicperrichon@gmail.com";
-                    }}
-                  >
-                    ivanaradicperrichon @gmail.com
-                  </div>{" "}
-                  Or stay in contact{" "}
-                  <h2 className="aboutLinksButton">
-                    <a href="https://github.com/IvanaRP">Github</a>
-                  </h2>
-                  <h2 className="aboutLinksButton">
-                    <a href="https://www.linkedin.com/in/ivana-radicp/">
-                      LinkedIn
-                    </a>
-                  </h2>
                 </h1>
+                <div
+                  className="aboutLinksButton"
+                  onClick={(e) => {
+                    window.location.href =
+                      "mailto:ivanaradicperrichon@gmail.com";
+                  }}
+                >
+                  ivanaradicperrichon @gmail.com
+                </div>
+                <h1 className="homeTitle">Or stay in contact </h1>
+                <h2 className="aboutLinksButton">
+                  <a href="https://github.com/IvanaRP">Github</a>
+                </h2>
+                <h2 className="aboutLinksButton">
+                  <a href="https://www.linkedin.com/in/ivana-radicp/">
+                    LinkedIn
+                  </a>
+                </h2>
               </div>
             </div>
           </div>
