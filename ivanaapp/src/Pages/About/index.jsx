@@ -1,5 +1,5 @@
 import React from "react";
-
+import CVIVANARADIC from "../../pdf/CV_Radic-Perrichon_Ivana.pdf";
 import "../../styles/home.css";
 import "../../styles/about.css";
 
@@ -14,18 +14,18 @@ function About() {
                 <h1 className="homeTitle">Hej again!</h1>
                 <h2 className="homeSubTitle">
                   Highly creative and experienced versatile creative
-                  professional with a proven work history as a graphic designer,
-                  illustrator, and application developer.
+                  professional with a proven work history as a Ui artist,
+                  graphic designer, illustrator and application developer.
                 </h2>
                 <h2 className="homeSubTitle">
-                  With over 15 years of experience in the advertising and gaming
-                  industries, working for companies such as Leo Burnett, Molson
-                  Coors, and SOME GAMING KURAC.
+                  With over 12 years of experience in the advertising and gaming
+                  industries, working for companies such as Leo Burnett,
+                  Frontmen Studio and Molson Coors.
                 </h2>
                 <h2 className="homeSubTitle">
-                  Advanced user of English, French, Croatian and Serbian
-                  (native), skilled in vector illustration, graphics, logo
-                  design, typography, and Adobe Illustrator.
+                  Advanced proficiency in the languages of English, French, and
+                  Serbian (native), as well as 2D art, graphics, logo design,
+                  and typography.
                 </h2>
                 <h2 className="homeSubTitle">
                   Living in various countries such as Serbia, France, and
@@ -50,10 +50,7 @@ function About() {
                     ivanaradicperrichon @gmail.com
                   </div>
                   <div className="aboutLinksButton">
-                    <a
-                      href="ivanaapp/public/images/ezgif.com-gif-maker.gif"
-                      download
-                    >
+                    <a href={CVIVANARADIC} target="_blank" rel="noreferrer">
                       Download cv
                     </a>
                   </div>
