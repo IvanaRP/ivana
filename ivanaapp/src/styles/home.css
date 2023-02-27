@@ -32,7 +32,7 @@ h2 {
   text-justify: inter-word;
   font-weight: 400;
   font-size: 1.5em;
-  line-height: 32px;
+  line-height: 1.6;
 }
 
 .homeTitle {
@@ -52,6 +52,7 @@ h2 {
   padding: 20px;
   width: 200px;
   height: 200px;
+
   /* margin: auto; */
   position: relative;
   left: -151px;

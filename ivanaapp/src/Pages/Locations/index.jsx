@@ -20,7 +20,7 @@ function Location() {
               <div className="location-header-info">
                 <div className="titleSubtitle">
                   <h1 className="title">{location.title}</h1>
-                  <h2 className="subTitle">Project 12 - Openclassrooms This</h2>
+                  <h2 className="subTitle">{location.subtitle}</h2>
                 </div>
 
                 <Carousel
@@ -30,16 +30,16 @@ function Location() {
                 />
                 <div className="projectInfo">
                   <div>
-                    <h2 className="projectTittle">ABOUT THE PROJECT</h2>
+                    <h2 className="projectTittle">About the project</h2>
                     <h3 className="projectSubTittle">{location.description}</h3>
                   </div>
                   <div>
-                    <h2 className="projectTittle">OBJECTIF</h2>
+                    <h2 className="projectTittle">Mission</h2>
                     <h3 className="projectSubTittle">{location.objectif}</h3>
                   </div>
 
                   <div>
-                    <h2 className="projectTittle">Languages ​​used:</h2>
+                    <h2 className="projectTittle">Developed with</h2>
                     <div className="location-tags-rating">
                       <div className="projectSubTittle">
                         <ul>
@@ -57,9 +57,7 @@ function Location() {
                   </div>
 
                   <div>
-                    <h2 className="projectTittle">
-                      You can check my work on github or online version
-                    </h2>
+                    <h2 className="projectTittle">Links</h2>
                     <div className="externalLinks">
                       <a href={location.github} target="_blank">
                         See the code on Github

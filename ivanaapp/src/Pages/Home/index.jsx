@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../../styles/home.css";
-import logoIV from "../../assets/logoIV.png";
+import logoIV from "../../assets/2-01.png";
 import Gallery from "../../Components/Gallery";
 
 function Home() {
