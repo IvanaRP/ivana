@@ -34,14 +34,20 @@ function About() {
                   ivanaradicperrichon @gmail.com
                 </div>
                 <h1 className="homeTitle">Or stay in contact </h1>
-                <h2 className="aboutLinksButton">
-                  <a href="https://github.com/IvanaRP">Github</a>
-                </h2>
-                <h2 className="aboutLinksButton">
-                  <a href="https://www.linkedin.com/in/ivana-radicp/">
-                    LinkedIn
-                  </a>
-                </h2>
+
+                <a
+                  href="https://github.com/IvanaRP"
+                  className="aboutLinksButton"
+                >
+                  Github
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/ivana-radicp/"
+                  className="aboutLinksButton"
+                >
+                  LinkedIn
+                </a>
               </div>
             </div>
           </div>
