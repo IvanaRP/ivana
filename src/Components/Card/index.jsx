@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 function Card({ title, id, cover }) {
   return (
     <div className="cardContainer">
-      <Link to={`/ivana/location/${id}`} className="cardLink">
+      <Link to={`/location/${id}`} className="cardLink">
         <div className="cardContent">
           <img src={cover} className="cardImg" alt="Cover" />
           <div className="cardTitle">{title}</div>

@@ -9,7 +9,7 @@ function Error() {
       <h2 className="error-message">
         Oups! The page you are looking is not here!
       </h2>
-      <Link to="/ivana/" className="home-link">
+      <Link to="/" className="home-link">
         Go Home maybe!
       </Link>
     </div>
