@@ -12,9 +12,9 @@ function RoutesPath() {
     <Router>
       <LinkToTop />
       <Routes>
-        <Route path="/ivana/" element={<Home />} />
-        <Route path="/ivana/about/" element={<About />} />
-        <Route path="/ivana/location/:idLocation" element={<Location />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/location/:idLocation" element={<Location />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
