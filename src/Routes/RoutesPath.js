@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "../Pages/Home";
 import About from "../Pages/About";
@@ -12,8 +12,8 @@ function RoutesPath() {
     <Router>
       <LinkToTop />
       <Routes>
-        <Route path="/ivana/" element={<Home />} />
-        <Route path="/ivana/about/" element={<About />} />
+        <Route path="/ivana" element={<Home />} />
+        <Route path="/ivana/about" element={<About />} />
         <Route path="/ivana/location/:idLocation" element={<Location />} />
         <Route path="*" element={<Error />} />
       </Routes>
