@@ -132,8 +132,7 @@
     "pictures": [
       "https://raw.githubusercontent.com/IvanaRP/ivana/main/src/assets/Images/Reservia/1reserv.jpg",
       "https://raw.githubusercontent.com/IvanaRP/ivana/main/src/assets/Images/Reservia/2Reservia.jpg",
-      "https://raw.githubusercontent.com/IvanaRP/ivana/main/src/assets/Images/Reservia/3Reservia.jpg",
-      "https://raw.githubusercontent.com/IvanaRP/ivana/main/src/assets/Images/Reservia/4Reservia.jpg"
+      "https://raw.githubusercontent.com/IvanaRP/ivana/main/src/assets/Images/Reservia/3Reservia.jpg"
     ],
     "description": "Reservia is a small company offering a vacation planning tool. The site allows users to find accommodation and activities in the city of their choice.",
     "objectif": "Create a site prototype by integrating the model designed by the UI designer, in HTML and CSS. The site is responsive.",
