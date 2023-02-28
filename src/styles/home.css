@@ -20,7 +20,7 @@
   flex-direction: row;
 }
 .homeTitleSubtitle {
-  width: 60%;
+  width: 80%;
   padding: 100px 150px 50px 150px;
 }
 .homeCopy {
@@ -29,7 +29,7 @@
   padding: 100px 150px 50px 150px;
 }
 h2 {
-  text-align: justify;
+  text-align: left;
   text-justify: inter-word;
   font-weight: 400;
   font-size: 1.5em;
@@ -53,7 +53,7 @@ h2 {
   padding: 20px;
   height: 360px;
   position: relative;
-  /* left: -151px; */
+  left: -151px;
   margin-top: 65px;
 }
 
@@ -117,6 +117,10 @@ h2 {
   } */
   .homeTitleSubtitle {
     width: 60%;
-    padding: 100px 24px 50px 150px;
+    padding: 100px 24px 50px 60px;
+  }
+  .logo {
+    margin-right: 60px;
+    left: 22px;
   }
 }

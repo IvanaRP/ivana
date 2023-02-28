@@ -56,9 +56,30 @@
     position: relative;
     object-fit: cover;
     padding-bottom: 30px;
+    width: 99%;
   }
   .slideContainer {
     display: flex;
     flex-direction: column;
+  }
+  .btn-left {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    z-index: 40;
+    height: 30px;
+    text-shadow: 3px 3px 3px #272634;
+  }
+
+  .btn-right {
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    /* padding: 10px; */
+    z-index: 40;
+    height: 30px;
+    text-shadow: 3px 3px 3px #272634;
   }
 }

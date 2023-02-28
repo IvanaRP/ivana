@@ -125,4 +125,8 @@
     margin: 0;
     margin-left: 0;
   }
+  .cardImg {
+    width: 240px;
+    height: 240px;
+  }
 }
