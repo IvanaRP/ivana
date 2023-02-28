@@ -1,23 +1,24 @@
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 import PropTypes from "prop-types";
 // import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "../../styles/carousel.css";
 
 function Carousel({ cover, pictures }) {
-  const [current, setCurrent] = useState(0);
+  // const [current, setCurrent] = useState(0);
 
-  const counter = pictures.length;
+  // const counter = pictures.length;
 
-  const gotToNextPicture = () => {
-    setCurrent(current === counter - 1 ? 0 : current + 1);
-  };
-  const goToPreviousPicture = () => {
-    setCurrent(current === 0 ? counter - 1 : current - 1);
-  };
+  // const gotToNextPicture = () => {
+  //   setCurrent(current === counter - 1 ? 0 : current + 1);
+  // };
+  // const goToPreviousPicture = () => {
+  //   setCurrent(current === 0 ? counter - 1 : current - 1);
+  // };
 
   return (
     <div className="slideWrapper">
+      <h2>carousel</h2>
       {/* <div className="slideContainer">
         {counter === 1 ? (
           <img src={cover} alt="Carrousel" />
