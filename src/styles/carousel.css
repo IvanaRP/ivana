@@ -55,8 +55,8 @@
     height: 320px;
     position: relative;
     object-fit: cover;
-    padding-bottom: 30px;
-    width: 99%;
+    /* padding-bottom: 30px;
+    width: 99%; */
   }
   .slideContainer {
     display: flex;
