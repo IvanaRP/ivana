@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ivana/static/css/main.148db4ee.css",
-    "main.js": "/ivana/static/js/main.9df31549.js",
+    "main.css": "/ivana/static/css/main.51c66742.css",
+    "main.js": "/ivana/static/js/main.b2625cc2.js",
     "static/js/787.428f86c5.chunk.js": "/ivana/static/js/787.428f86c5.chunk.js",
     "static/media/CV_Radic-Perrichon_Ivana.pdf": "/ivana/static/media/CV_Radic-Perrichon_Ivana.8c4b5284916036ef698e.pdf",
-    "static/media/2-01.png": "/ivana/static/media/2-01.d65daea346a15675a2df.png",
+    "static/media/webIvana.svg": "/ivana/static/media/webIvana.1e739d40a1d1c09c9c3ef8bfd5069687.svg",
     "index.html": "/ivana/index.html",
-    "main.148db4ee.css.map": "/ivana/static/css/main.148db4ee.css.map",
-    "main.9df31549.js.map": "/ivana/static/js/main.9df31549.js.map",
+    "main.51c66742.css.map": "/ivana/static/css/main.51c66742.css.map",
+    "main.b2625cc2.js.map": "/ivana/static/js/main.b2625cc2.js.map",
     "787.428f86c5.chunk.js.map": "/ivana/static/js/787.428f86c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.148db4ee.css",
-    "static/js/main.9df31549.js"
+    "static/css/main.51c66742.css",
+    "static/js/main.b2625cc2.js"
   ]
 }
