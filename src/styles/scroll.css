@@ -9,3 +9,17 @@
   color: white;
   cursor: pointer;
 }
+.scroll-to-top-text {
+  background-color: aqua;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  text-align: center;
+  border: 3px solid aqua;
+}
+
+.scroll-to-top-textfont {
+  font-size: 12px;
+  color: #28293e;
+}

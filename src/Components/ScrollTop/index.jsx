@@ -31,8 +31,8 @@ export default function ScrollToTop() {
   return (
     <div className="scroll-to-top">
       {isVisible && (
-        <div onClick={scrollToTop}>
-          <h3>Go up!</h3>
+        <div className="scroll-to-top-text" onClick={scrollToTop}>
+          <h3 className="scroll-to-top-textfont">Go up!</h3>
         </div>
       )}
     </div>
