@@ -13,7 +13,7 @@ function RoutesPath() {
       <LinkToTop />
       <Routes>
         <Route path="/ivana/" element={<Home />} />
-        <Route path="/ivana/about" element={<About />} />
+        <Route path="/ivana/about/" element={<About />} />
         <Route path="/ivana/location/:idLocation" element={<Location />} />
         <Route path="*" element={<Error />} />
       </Routes>
