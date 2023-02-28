@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../../styles/home.css";
-import logoIV from "../../assets/2-01.png";
+import logoIV from "../../assets/webIvana.svg";
 import Gallery from "../../Components/Gallery";
 
 function Home() {
@@ -17,11 +17,14 @@ function Home() {
                   React developer, focused on beautiful and usefull web and
                   mobile applications.
                   <br />
-                  Currently based in Copenhagen, Denmark. <br />
+                  Currently based in Copenhagen, Denmark.
+                  <br />
                   Look what i can do!
                 </h2>
               </div>
-              <img src={logoIV} className="logo" alt="logo" />
+              <div>
+                <img src={logoIV} className="logo" alt="logo" />
+              </div>
             </div>
 
             <Gallery />

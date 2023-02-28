@@ -20,6 +20,7 @@
   flex-direction: row;
 }
 .homeTitleSubtitle {
+  width: 60%;
   padding: 100px 150px 50px 150px;
 }
 .homeCopy {
@@ -50,13 +51,10 @@ h2 {
 .logo {
   border-radius: 50%;
   padding: 20px;
-  width: 200px;
-  height: 200px;
-
-  /* margin: auto; */
+  height: 360px;
   position: relative;
-  left: -151px;
-  margin-top: 30px;
+  /* left: -151px; */
+  margin-top: 65px;
 }
 
 /* Media querrie */
@@ -70,7 +68,8 @@ h2 {
   .homeTitleSubtitle {
     padding: 30px 40px 10px 40px;
     position: relative;
-    top: 180px;
+    top: 280px;
+    width: 100%;
   }
   .home-header-info {
     font-family: Montserrat;
@@ -100,11 +99,10 @@ h2 {
   .logo {
     border-radius: 50%;
     padding: 20px;
-    width: 200px;
-    height: 200px;
+    height: 300px;
     /* margin: auto; */
     position: relative;
-    left: 25%;
+    left: 10%;
     top: -340px;
     margin-top: 30px;
   }
@@ -117,4 +115,8 @@ h2 {
   /* .homeWrapper {
     padding: 0 25px;
   } */
+  .homeTitleSubtitle {
+    width: 60%;
+    padding: 100px 24px 50px 150px;
+  }
 }

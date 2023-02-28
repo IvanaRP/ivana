@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 function Thumbnails({ title, id, cover }) {
   return (
     <div className="thumbContainer">
-      <Link to={`/location/${id}`} className="thumbLink">
+      <Link to={`/ivana/location/${id}`} className="thumbLink">
         <div className="thumbContent">
           <img src={cover} className="thumbImg" alt="Cover" />
         </div>
