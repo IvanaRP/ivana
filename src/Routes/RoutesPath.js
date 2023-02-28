@@ -9,7 +9,7 @@ import LinkToTop from "../Components/LinktoTop";
 
 function RoutesPath() {
   return (
-    <Router>
+    <Router basename="/ivana">
       <LinkToTop />
       <Routes>
         <Route path="/" element={<Home />} />
