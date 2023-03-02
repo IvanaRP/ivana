@@ -11,8 +11,7 @@
   display: flex;
   margin: 20px auto 20px auto;
   padding: 3px;
-  /* font-size: 24px; */
-  font-size: 44px;
+  font-size: 24px;
   font-weight: 800;
   background-color: #0000ff;
   color: #fff;
@@ -24,6 +23,13 @@
 }
 .abouthomeTitleSubtitle {
   padding: 100px 150px 50px 150px;
+}
+
+.aboutTitle {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  padding-top: 10px;
 }
 /* Media querrie */
 

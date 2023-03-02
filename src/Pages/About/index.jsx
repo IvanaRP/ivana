@@ -11,7 +11,7 @@ function About() {
           <div className="homeContainer">
             <div className="home-header-info">
               <div className="abouthomeTitleSubtitle">
-                <h1 className="homeTitle">Hej again, have a look at my</h1>
+                <h1 className="aboutTitle">Hej again, have a look at my</h1>
                 <a
                   href={CVIVANARADIC}
                   target="_blank"
@@ -20,7 +20,7 @@ function About() {
                 >
                   CV
                 </a>
-                <h1 className="homeTitle">
+                <h1 className="aboutTitle">
                   or if you’d like to contact me, talk about a project or ask me
                   a question just drop me an email!{" "}
                 </h1>
@@ -33,7 +33,7 @@ function About() {
                 >
                   ivanaradicperrichon @gmail.com
                 </div>
-                <h1 className="homeTitle">Or stay in contact </h1>
+                <h1 className="aboutTitle">Or stay in contact </h1>
 
                 <a
                   href="https://github.com/IvanaRP"
