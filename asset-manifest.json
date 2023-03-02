@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ivana/static/css/main.41e6ddd8.css",
+    "main.css": "/ivana/static/css/main.8c54a139.css",
     "main.js": "/ivana/static/js/main.09a6f890.js",
     "static/js/787.428f86c5.chunk.js": "/ivana/static/js/787.428f86c5.chunk.js",
     "static/media/CV_Radic-Perrichon_Ivana.pdf": "/ivana/static/media/CV_Radic-Perrichon_Ivana.8c4b5284916036ef698e.pdf",
     "static/media/webIvana.svg": "/ivana/static/media/webIvana.c7fd525e7562bd83b6c4f51ce789f4a7.svg",
     "index.html": "/ivana/index.html",
-    "main.41e6ddd8.css.map": "/ivana/static/css/main.41e6ddd8.css.map",
+    "main.8c54a139.css.map": "/ivana/static/css/main.8c54a139.css.map",
     "main.09a6f890.js.map": "/ivana/static/js/main.09a6f890.js.map",
     "787.428f86c5.chunk.js.map": "/ivana/static/js/787.428f86c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41e6ddd8.css",
+    "static/css/main.8c54a139.css",
     "static/js/main.09a6f890.js"
   ]
 }
